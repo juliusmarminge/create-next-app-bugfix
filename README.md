@@ -1,5 +1,13 @@
 # Prisma + tRPC
 
+This project was created using
+
+```bash
+node dist/index.js --example https://github.com/trpc/trpc --example-path examples/next-prisma-starter
+```
+
+after fixing bug https://github.com/vercel/next.js/issues/43130 for PR https://github.com/vercel/next.js/pull/43131. Compare the `src/pages` directory compared to the issue reproduction repo https://github.com/juliusmarminge/create-next-app-bug-repro/tree/main/src/pages - only the valid files are there, and not for example the auth dir which came from the other example https://github.com/trpc/trpc/tree/next/examples/next-prisma-starter-websockets
+
 ## Features
 
 - 🧙‍♂️ E2E typesafety with [tRPC](https://trpc.io)
